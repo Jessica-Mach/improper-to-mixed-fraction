@@ -105,17 +105,30 @@ textarea {
    .content-wrapper {
       display: flex;
       justify-content: center;
-      margin: 0 10%;
-      padding: 20px 0;
+      flex-direction: column;
+      margin: 0;
+      padding: 20px 10%;
       width: 80%;
    }
 
    header {
-    background-color: #65ECF6;
+      background-color: #65ECF6;  
    }
 
    .fancy {
     font-family: 'Rock Salt', cursive;
+   }
+
+   #calc-intro {
+      background-color: #65ECF6; 
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+   }
+
+   #intro-box {
+      padding: 20px 10%;
    }
 
 /* ==========================================================================
